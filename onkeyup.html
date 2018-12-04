@@ -1,0 +1,22 @@
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <script>
+      var d = document.getElementById('output');
+      
+      document.body.addEventListener('keydown',function(userchoice){
+        var key = userChoice.keyCode;
+        if (key == 13) {
+          d.innerHTML = "enter";
+        }
+        else if (key == 32) {
+          d.innerHTML = "Spacebar";
+        });
+        document.body.addEventListener('keyup',function(){
+          d.innerHTML = " ";
+      });
+    </script>
+  </body>
+</html>

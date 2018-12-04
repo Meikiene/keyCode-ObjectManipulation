@@ -1,0 +1,15 @@
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <h1 id="lookHere"></h1>
+    <script>
+      document.body.addEventListener('keypress',function(userChoice) {
+        var key = userChoice.keyCode;
+        document.getElementById('lookHere').innerHTML = key;
+      });
+      
+    </script>
+  </body>
+</html>
